@@ -1,0 +1,142 @@
+body{
+    font-family: "IBM Plex Mono", monospace;
+    background-color: #f5f5f5; 
+}
+
+.container{
+    background-color: #fff;
+    margin: 0 auto;
+    width: 720px;
+    padding: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header{
+    display: flex;
+
+    justify-content: flex-start;
+    align-items: end;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.profile-pic{
+    background-color: #f7f747;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.logo{
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    
+}
+
+header, h1{
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+header, h2{
+    color: #707070;
+    margin-bottom: 12px;
+    font-size: 13px;
+}
+
+.main-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.summary{
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-top: 35px;
+    font-weight: 500;
+}
+
+.content-start{
+    margin-right: 50px;
+}
+
+
+
+.job-title{
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+.job-company{
+    font-size: 13px;
+    font-style: italic;
+    color: #999999;
+    margin-bottom: 7px;
+}
+
+.text{
+    font-size: 12px;
+    line-height: 1.3;
+}
+
+.education h3{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+h3{
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.card{
+    margin-bottom: 25px;    
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.date-location{
+    background-color: #f7eeee;    
+    border-radius: 5px;
+    color: #b1adad;
+    margin: 0;
+    padding: 4px;
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+.education-title{
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 8px;
+    width: 150px;
+}
+
+.institution{
+    font-size: 12px;
+    width: 110px;
+    color: #4d4c4d;
+}
+
+.description{
+    font-size: 12px;
+    font-weight: bold;
+    width: 150px;
+    line-height: 1.3;
+    margin-bottom: 8px;
+}
+
+a{
+    font-size: 12px;
+}
+
+.contact-info{
+    font-size: 12px;
+}
+
